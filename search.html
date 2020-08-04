@@ -3,39 +3,44 @@
     <head>
         <title>Search</title>
  <style type="text/css">
-   .search1 { 
-    position: relative;
-   float: left; 
-   }
-   .search2	{
-   	position: relative;
-   	float: left; }
-   	.p1 {
-   	height:30px;
-   	display:table-cell;
-   	vertical-align:middle;
-   	}
+
+
+   input{
+	font:16px arial,sans-serif;
+ 	height:44px;
+ 	background:#fff;
+ 	display:flex;
+ 	border:1px solid #dfe1e5;
+ 	box-shadow:none;
+ 	border-radius:24px;
+ 	z-index:3;
+ 	height:44px;
+ 	margin:0 auto;
+ 	width:482px;
+}
+
    
   </style>
-  <p>Here Google Image Search</p> 
-    	<div class="search1">
-    	<form action="https://www.google.com/search">
-    		<input type="hidden" name="tbm" value="isch">
-        	<input type="text" name="q">
-        	<input type="submit" value="Image Search">
-        </form>
-    	</div>
-    </head>
+  </head>
     <body>
     <div class = "p1">
-    	<p>Here just Google search</p>
+    	<H2>Here just Google search</H2>
     </div>
  		<div class ="search2">
+ 			<center>
          <form action="https://google.com/search">
-            <input type="text" name="q">
+            <input type="text" name="q" placeholder="Search Google">
             <input type="submit" value="Google Search">
+            </center>
         </form>
     	</div>
+
+
+    <div>
+    	<a href="search2"> Google Image Search </a>
+    	
+    </div>
+    <a href="search3.html"> Advanced Google Search</a>
     </body>
 </html>
 
